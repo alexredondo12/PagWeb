@@ -1,0 +1,313 @@
+body{   
+    background: url("../Imagenes/fondo4.jpg"), rgb(0, 0, 0);
+    font-weight: bold;
+    font-style: oblique;
+    font-family: -apple-system,  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-variant: small-caps;
+    color: gray;
+    width: 1500px;
+}
+/*TITULO*/
+header{
+    background-color: rgba(0, 0, 0, 0.4);  
+     
+}
+header h1{
+    text-align: center;
+    font-size: 3em;
+    border-radius: 5%;
+    margin-top: 25px;
+}
+/*CONTENEDOR PRINCIPAL*/
+#contenedor{
+    margin: 20px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    width: 1500px;
+   
+}
+
+/*primer text0*/
+.significado{
+    display: flex;
+    justify-content: center;
+    
+}
+/*TEXTO IZQUIERDO*/
+.izquierda{
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 450px;
+    height: 400px;
+    padding: 25px;
+  
+}
+.textoizquierda{
+    margin-top: 90px;
+    font-size: 18px;
+    text-align: left;
+}
+/*TEXTO CENTRAL*/
+.centro{
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 600px;
+    height: 400px;
+    padding: 25px;
+}
+.imagen{
+    width: 525px;
+    height: 300px;
+    margin-top: 35px;
+}
+/*TEXTO DERECHO*/
+.derecha{
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 450px;
+    height: 400px;
+    padding: 25px;
+    font-size: 12px;
+}
+.textoderecha{
+    margin-top: 70px;
+    font-size: 18px;
+    text-align: left;
+}
+/*lista*/
+.sociedades{
+    margin-top: 20px; 
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 1480px; 
+    padding: 10px;
+    text-align: center;
+}
+
+.list{
+    color: white;
+    list-style: none;  
+    list-style-type: none;
+    list-style-image: none;
+    margin: 0.3em 0;
+    display:inline;
+    padding-left:28px;
+    padding-right:28px;
+}
+.numero{
+    color:white;
+    font-size: 18px; 
+}
+.palabra{
+    color: white;
+    font-size: 16px; 
+}
+
+/*texto illuminati*/
+.section{
+    margin-top: 15px;
+    align-items: center;
+}
+.illuminati{
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+}
+.texto{
+    color: gray;
+   
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding:20px;
+    margin-top: 20px;
+}
+.imagenillu{
+    width: 350px;
+    height: 250px;
+    margin-left: 320px;
+}
+.texto > h3{
+    color: white;
+    font-size: 18px;
+}
+.texto>h3:hover{
+    color: gray;
+}/*tablas*/
+
+.tabla{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 400px;
+}
+th,td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+/*TEXTO SKULL AND BONES*/
+.skull{
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    
+}
+    .texto1{
+        color: gray;
+        
+        width: 1000px;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding:20px;
+        
+    }
+    .imagenskull{
+        width: 350px;
+        height: 250px;
+        margin-left: 320px;
+    }
+    .texto1 > h4{
+        color: white;
+        font-size: 18px;
+    }
+    .texto1>h4:hover{
+        color: gray;
+    }
+/*TEXTO MASONERIA*/
+.masoneria{
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+}
+    .texto2{
+        color: gray;
+        
+        width: 1000px;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding:20px;
+        
+    }
+    .imagenmason{
+        width: 350px;
+        height: 250px;
+        margin-left: 320px;
+    }
+    .texto2 > h5{
+        color: white;
+        font-size: 18px;
+    }
+    .texto2>h5:hover{
+        color: gray;
+    }
+/*TEXTO BILDERBERG*/
+.bilderberg{
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+}
+    .texto3{
+        color: gray;
+        
+        width: 1000px;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding:20px;
+        
+    }
+    .imagenbilder{
+        width: 350px;
+        height: 250px;
+        margin-left: 320px;
+    }
+    .texto3 > h6{
+        color: white;
+        font-size: 18px;
+    }
+    .texto3>h6:hover{
+        color: gray;
+    }
+/*TEXTO ROSACRUZ*/
+.rosacruz{
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+}
+    .texto4{
+        color: gray;
+        
+        width: 1000px;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding:20px;
+        
+    }
+    .imagenrosa{
+        width: 350px;
+        height: 250px;
+        margin-left: 320px;
+    }
+    .texto4 > h5{
+        color: white;
+        font-size: 18px;
+    }
+    .texto4>h5:hover{
+        color: gray;
+    }
+
+.galeria {
+    text-align: center;
+    
+}
+footer{
+    background: rgba(0, 0, 0, 0.4);
+    text-align: right;
+    padding: 10px;
+    
+    margin-top: 50px;
+}
+
+.imagen2{
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin: 2px;
+}
+.imagen2:hover{
+    margin-left: 15px;
+}
+
+
+/*menu*/
+nav{
+    height: auto; 
+    overflow: hidden;
+    text-align: left;   
+    background: rgba(0, 0, 0, 0.4);
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;  
+    padding: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 2px; 
+    position: relative; 
+    display: block;
+}
+
+nav li{
+    list-style: none;  
+    position: relative;    
+    display: inline;
+
+}     
+.nav a:hover{
+    color:white;
+}

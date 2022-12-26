@@ -1,0 +1,223 @@
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-family: -apple-system,  'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url("../Imagenes/fondo4.jpg"), rgb(0, 0, 0);
+}
+/*TITULO*/
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100px;
+}
+header h1{
+    text-align: center;
+    font-size: 3em;
+    border-radius: 4%;
+    margin-top: 17px;
+    color: gray;
+    padding: 15px;
+
+}/*cuadro principal*/
+.centro{
+    display: flex;
+    justify-content: space-between;
+}
+/*CUADRO DE IMAGENES IZQUIERDO*/
+.imagenes{
+    width: 350px;
+    height: 870px;
+    
+}
+/*CUADRO DE CENTRAL*/
+.texto{
+    width: 850px;
+    height: 870px;
+    
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/*TEXTO DEL CUADRO CENTRAL*/
+.alien{
+    width: 300px;
+    height: 250px;
+    margin-top: 35px;
+    margin-left: 265px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.h2{
+    color: gray;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+   
+}
+/*LISTA DE ALIENS*/
+.ovnis{
+    text-align: left;  
+    margin-top: 20px;
+    list-style: none; 
+    font-size: 16px;
+
+}
+/*CUADRO DE IMAGENES DERECHO*/
+.imagenes2{
+    width: 350px;
+    height: 870px;
+    
+}
+/*lista nombre de aliens y imagen*/
+.lista{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+   
+}
+
+/*cuadro secundario*/
+.medio{
+    display: flex;
+    justify-content: space-between;
+}
+.imagenes1{
+    width: 350px;
+    height: 250px;
+    
+}
+.texto1{
+    width: 850px;
+    height: 250px;
+    
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.h3{
+    color: gray;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+/*cuadro blue beam*/
+.bluebeam{
+    display: flex;
+    justify-content: space-between;
+}
+.imagenes3{
+    width: 350px;
+    height: 480px;
+    
+}
+.texto3{
+    width: 850px;
+    height: 480px;
+    
+    background-image: url("https://www.lasdoscaras.site/wp-content/uploads/2020/04/71D43732-D6C0-41C7-971F-6A7C4BD56894.png");
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.h4{
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/*cuadro ovni*/
+.ovnni{
+    display: flex;
+    justify-content: space-between;
+}
+.imagenes4{
+    width: 350px;
+    height: 500px;
+    
+}
+.texto4{
+    width: 850px;
+    height: 500px;
+    
+    background-image: url("https://image.ondacero.es/clipping/cmsimages02/2016/07/03/AE3834C3-5858-4EED-9436-567F36953783/58.jpg");
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.h5{
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+footer{
+    background: rgba(0, 0, 0, 0.4);
+    text-align: right;
+    padding: 10px;
+    margin-top: 10px;
+}
+.galeria2{
+    font-size: 18px;
+    color: gray;
+}
+/*IMAGENES REDES SOCIALES*/
+.imagen2{
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin: 2px;
+}
+.imagen2:hover{
+    margin-left: 15px;
+}
+
+/*MENU*/
+nav{
+    height: auto; 
+    overflow: hidden;
+    text-align: left;   
+    background: rgba(0, 0, 0, 0.4);
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;  
+    padding: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 2px; 
+    position: relative; 
+    display: block;
+}
+
+nav li{
+    list-style: none;  
+    position: relative;    
+    display: inline;
+
+}     
+.nav a:hover{
+    color:white;
+}
+
+/*tamaño de galeria de imagenes*/
+.image {
+    height: 260px;
+    width: 145px;
+    margin: 5px;
+    border-radius: 3px;
+}

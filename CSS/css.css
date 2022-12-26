@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-family: -apple-system,  'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url("../Imagenes/fondo4.jpg"), rgb(0, 0, 0);
+    height: 200px;
+}
+
+header{
+    height: 10%;
+}
+.titulo{
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+
+
+#contenedor {
+    max-width: 100%;
+    border: 1px black;
+    padding: 25px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    left: 20%;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5%;
+    
+}
+/*Menu*/
+nav{
+    height: auto; /*Junto a overflow: hidden; aplicará a nuestro elemento nav el mismo alto que el más alto de sus elementos hijos */  /* Centro el contenedor */
+    overflow: hidden;
+    text-align: left;
+    width: 960px; /* Defino el ancho de mi página */
+    
+
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+    display: block;
+    width: 150px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    
+   
+}
+nav ul {
+    text-align: left;
+    float: left;
+    list-style-type: none;
+    padding: 0; 
+    position: relative; 
+    left: 50%;
+}
+
+nav li{
+    list-style: none;  
+    position: relative; 
+    right: 50%;    
+}      
+.nav a:hover{
+    color:white;
+
+}
+/*fin menu*/
+
+
+footer{
+    
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.imagen2{
+        width: 20px;
+        height: 20px;      
+        margin: 2px;
+        
+}
+.imagen2:hover{
+    margin-left: 15px;
+}
+
+.fecha_dia {
+    background-color: transparent;
+    padding:7px;  
+    width:100%;
+    text-align:center;
+    border-radius:1px;
+    margin-top:2%;
+    margin-right: 25em;
+    color:gray;
+}
+#reloj{
+    background-color:transparent;
+    font-family: sans-serif;
+    font-size:14px;
+    text-shadow:0px 0px 1px #fff;
+    color:gray;
+    
+}
+/*notificacion*/
+
+

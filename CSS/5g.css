@@ -1,0 +1,121 @@
+
+body{   
+    background: url("../Imagenes/fondo4.jpg"), rgb(0, 0, 0);
+    font-weight: bold;
+    font-style: oblique;
+    font-family: -apple-system,  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-variant: small-caps;
+    color: gray;
+    width: 1500px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.4);  
+    border: 2px solid gray;  
+}
+header h1{
+    text-align: center;
+    font-size: 3em;
+    border-radius: 5%;
+    margin-top: 25px;
+    color: gray;
+}
+#contenedor{
+    margin: 20px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1485px;
+}
+
+.texto{
+    font-size: 16px; 
+    display: flex;
+    flex-direction: row;
+    width: 1250px;
+}
+.more{
+    margin-top: 25px;
+    margin-left: 400px;
+}
+.izquierda{  
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    text-align: center;
+    border: 2px solid gray;
+    height: 410px;
+}
+.derecha{
+    margin-left: 20px ;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border: 2px solid gray;
+}
+.fotos{
+    color: gray;
+    text-align: justify;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 22px;
+    border: 2px solid gray;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.imagen {
+    height: 165px;
+    width: 250px;
+    margin: 15px 25px;
+    border-radius: 3px;
+    border: 2px solid gray;  
+}
+.galeria {
+    text-align: center;   
+}
+footer{
+    background: rgba(0, 0, 0, 0.4);
+    text-align: right;
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+.imagen2{
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin: 2px;
+}
+.imagen2:hover{
+    margin-left: 15px;
+}
+
+
+/*menu*/
+nav{
+    width: 200px; /* Defino el ancho de mi página */
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid gray;
+    height: 440px;
+}
+nav a{
+    text-decoration: none;
+    color: gray; 
+    font-weight: bold;
+    font-size: 14px;  
+}
+nav ul {
+    text-align: left;   
+}
+
+nav li{
+    list-style: none;   
+    word-spacing: 6px;  
+    margin-right: 32px;
+    padding: 31px; 
+}
+.nav a:hover{
+    color:white;
+}      
+/*fin menu*/
